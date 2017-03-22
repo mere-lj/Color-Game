@@ -39,11 +39,6 @@ h1 {
 	border-bottom: 4px solid white;
 }
 
-#message {
-	display: inline-block;
-	width: 20%;
-}
-
 #stripe {
 	background-color: white;
 	height: 30px;
@@ -56,6 +51,8 @@ h1 {
 }
 
 #stripe #message {
+	display: inline-block;
+	width: 20%;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: rgb(70, 160, 110);
