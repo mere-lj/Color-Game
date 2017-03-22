@@ -1,0 +1,46 @@
+<!DOCTYPE html lang="ru">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RGB-игра</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"> </script>
+    <script src="js/respond.min.js"> </script>
+	<![endif]--> 
+	<link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+
+	<link rel="stylesheet" type="text/css" href="style/colorgame.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo:700" rel="stylesheet">
+
+</head>
+<body>
+	<h1>Найди цвет
+	<br>
+	<span class='colorDisplay' id='red'>R</span> 
+	<span class='colorDisplay' id='green'>G</span> 
+	<span class='colorDisplay' id='blue'>B</span>
+	<br>
+	Счет: <span id='winCounterDisplay'>0</span>
+	</h1>
+
+<div id='stripe'>
+	<button id='reset'>Новые цвета</button>
+	<span id='message'></span>
+	<button class = 'mode'>Легко</button>
+	<button class = 'mode selected'>Сложно</button>
+	
+</div>
+
+	<div id='container'>
+		<dir class='square'></dir>
+		<dir class='square'></dir>
+		<dir class='square'></dir>
+		<dir class='square'></dir>
+		<dir class='square'></dir>
+		<dir class='square'></dir>
+	</div>
+
+	<script type="text/javascript" src='script/colorgame.js'></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+body {
+	background-color: #232020;
+	margin: 0;
+	font-family: 'Arimo', sans-serif;
+}
+
+.square {
+	width: 30%;
+	background-color: white;
+	padding: 15% 0;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%; 
+	transition: background-color 0.6s;
+	-webkit-transition: background-color 0.6s;
+	-moz-transition: background-color 0.6s;
+	
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	color: white;
+	line-height: 1.4;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgb(100, 140, 140);
+	margin: 0;
+	padding: 20px 0;
+}
+
+.colorDisplay {
+	font-size: 200%;
+	border-bottom: 4px solid white;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	color: white;
+	background: rgb(70, 160, 110);
+}
+
+#stripe #message {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(70, 160, 110);
+	letter-spacing: 1px;
+	font-size: inherit;
+	display: inline-block;
+}
+
+button {
+	border: none;
+	background: none; 
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(70, 160, 110);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	font-family: 'Arimo', sans-serif;
+}
+
+button:hover {
+	color: white;
+	background: rgb(70, 160, 110);
+	cursor: pointer; 
+}
+
+#red {
+	border-color: rgba(240, 70, 70, 0.9);
+}
+
+
+#green {
+	border-color: rgba(70, 240, 70, 0.9);
+}
+
+
+#blue {
+	border-color: rgba(70, 70, 240, 0.9);
+}
+
+@media only screen and (max-width: 416px) {
+	body {
+		font-size: 0.715em;
+	}
+}
